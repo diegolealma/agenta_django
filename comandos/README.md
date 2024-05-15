@@ -14,4 +14,7 @@ git config --global init.defaultBranch main
 git init
 git add .
 git commit -m 'Mensagem'
+git log
+git --oneline
 git remote add origin URL_DO_GIT
+git push origin main -u
